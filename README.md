@@ -31,6 +31,6 @@ function MyComponent() {
 
 ## TODO
 
-[ ] Add tests
-[ ] Add examples
-[ ] Add documentation
+- [ ] Add tests
+- [ ] Add examples
+- [ ] Add documentation
