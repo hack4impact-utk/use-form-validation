@@ -1,0 +1,42 @@
+{
+  "name": "@hack4impact-utk/use-form-validation",
+  "version": "1.0.0",
+  "description": "A reusable React hook for validating forms with Zod",
+  "type": "commonjs",
+  "files": [
+    "dist/*"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "zod": "^3.22.2"
+  },
+  "peerDependencies": {
+    "zod": "^3.22.2"
+  }
+}
