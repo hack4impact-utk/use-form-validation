@@ -1,6 +1,6 @@
 {
   "name": "@hack4impact-utk/use-form-validation",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A reusable React hook for validating forms with Zod",
   "type": "commonjs",
   "files": [
